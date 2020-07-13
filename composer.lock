@@ -1,0 +1,142 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2a8b54420b3ac7cee62b6cd670c5ad90",
+    "packages": [
+        {
+            "name": "inc2734/wp-plugin-view-controller",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inc2734/wp-plugin-view-controller.git",
+                "reference": "ec4f7150100c11e66927cb87ee776257ded1fb21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inc2734/wp-plugin-view-controller/zipball/ec4f7150100c11e66927cb87ee776257ded1fb21",
+                "reference": "ec4f7150100c11e66927cb87ee776257ded1fb21",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3",
+                "phpcompatibility/phpcompatibility-wp": "*",
+                "phpmd/phpmd": "2.*",
+                "phpunit/phpunit": "7.*",
+                "squizlabs/php_codesniffer": "*",
+                "wp-coding-standards/wpcs": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Inc2734\\WP_Plugin_View_Controller\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Takashi Kitajima",
+                    "email": "inc@2inc.org"
+                }
+            ],
+            "time": "2019-10-29T00:03:32+00:00"
+        },
+        {
+            "name": "kmix39/wp-active-check",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kmix-39/wp-active-check.git",
+                "reference": "f5ffd3d11bcf4ea06641411cf99c593003546a51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kmix-39/wp-active-check/zipball/f5ffd3d11bcf4ea06641411cf99c593003546a51",
+                "reference": "f5ffd3d11bcf4ea06641411cf99c593003546a51",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kmix39\\WP_Active_Check\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "kmix39",
+                    "email": "kmix39@not-wiz.net",
+                    "homepage": "https://not-wiz.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A library for WordPress that check if the themes or plugins is active.",
+            "homepage": "https://github.com/kmix-39/wp-active-check",
+            "time": "2020-01-19T13:45:38+00:00"
+        },
+        {
+            "name": "kmix39/wp-group-admin-notices",
+            "version": "0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kmix-39/wp-group-admin-notices.git",
+                "reference": "183422eb0ba5be4deb237043fa93605217b67501"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kmix-39/wp-group-admin-notices/zipball/183422eb0ba5be4deb237043fa93605217b67501",
+                "reference": "183422eb0ba5be4deb237043fa93605217b67501",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kmix39\\WP_Group_Admin_Notices\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "kmix39",
+                    "email": "kmix39@not-wiz.net",
+                    "homepage": "https://not-wiz.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A library for WordPress that displays group notices on the admin screen.",
+            "homepage": "https://github.com/kmix-39/wp-group-admin-notices",
+            "time": "2020-03-09T02:46:46+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

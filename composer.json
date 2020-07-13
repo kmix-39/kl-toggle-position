@@ -1,0 +1,25 @@
+{
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Kmical Lights",
+			"email": "kuramoto.hatsuki@gmail.com",
+			"homepage": "https://github.com/kmix-39"
+		}
+	],
+	"require": {
+		"php": ">=7.0",
+		"inc2734/wp-plugin-view-controller": "^1.0.0",
+		"kmix39/wp-group-admin-notices": "^0.1.4",
+		"kmix39/wp-active-check": "^0.1.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"KmicalLights\\TogglePosition\\": ""
+		}
+	},
+	"config": {
+		"autoloader-suffix": "KL_TogglePosition"
+	}
+}

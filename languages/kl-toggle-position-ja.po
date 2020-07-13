@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Toggle Position by Kmical Lights\n"
+"POT-Creation-Date: 2020-07-13 13:54+0900\n"
+"PO-Revision-Date: 2020-07-13 13:55+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: kl-toggle-position.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: App/Setup/Customizer.php:22
+msgid "Toggle Button Position"
+msgstr "トグルボタンの位置"
+
+#: App/Setup/Customizer.php:23 App/Setup/Customizer.php:39
+msgid "Only the actual screen will be reflected."
+msgstr "実画面のみ反映されます。"
+
+#: App/Setup/Customizer.php:26
+msgid "Right (Default)"
+msgstr "右 (デフォルト)"
+
+#: App/Setup/Customizer.php:27
+msgid "Left"
+msgstr "左"
+
+#: App/Setup/Customizer.php:38
+msgid "Toggle Menu Position"
+msgstr "トグルメニューの位置"
+
+#: App/Setup/Customizer.php:42
+msgid "Left (Default)"
+msgstr "左 (デフォルト)"
+
+#: App/Setup/Customizer.php:43
+msgid "Right"
+msgstr "右"
+
+#: kl-toggle-position.php:66
+msgid ""
+"\"Toggle Position by Kmical Lights\" is not available for your current theme."
+msgstr "現在のテーマでは「Toggle Position by Kmical Lights」は使用できません。"
+
+#. Plugin Name of the plugin/theme
+msgid "Toggle Position by Kmical Lights"
+msgstr "Toggle Position by Kmical Lights"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://github.com/kmix-39"
+msgstr "https://github.com/kmix-39"
+
+#. Description of the plugin/theme
+msgid "Customize Plugin for Snow Monkey"
+msgstr "これは Snow Monkey のカスタマイズプラグインです"
+
+#. Author of the plugin/theme
+msgid "Kmical Lights"
+msgstr "Kmical Lights"
