@@ -3,7 +3,7 @@
  * Plugin Name: Toggle Position by Kmical Lights
  * Plugin URI: https://github.com/kmix-39
  * Description: Customize Plugin for Snow Monkey
- * Version: 0.1.0
+ * Version: 0.1.1
  * Requires at least: 5.4
  * Requires PHP: 7.3
  * Author: Kmical Lights
@@ -35,21 +35,30 @@ class Bootstrap {
 	static function _activation() {
 		register_uninstall_hook( __FILE__, [ __CLASS__, '_uninstall' ] );
 
-		$_template_cache = new \Framework\Model\Template_Cache();
-		$_template_cache->remove();
+		$_active_check = App\Setup\ActiveCheck::instance();
+		if ( $_active_check->is_theme_active() ) {
+			$_template_cache = new \Framework\Model\Template_Cache();
+			$_template_cache->remove();
+		}
 	}
 
 	static function _deactivation() {
-		$_template_cache = new \Framework\Model\Template_Cache();
-		$_template_cache->remove();
+		$_active_check = App\Setup\ActiveCheck::instance();
+		if ( $_active_check->is_theme_active() ) {
+			$_template_cache = new \Framework\Model\Template_Cache();
+			$_template_cache->remove();
+		}
 	}
 
 	static function _uninstall() {
 		remove_theme_mod( 'toggle-button-position' );
 		remove_theme_mod( 'toggle-menu-position' );
 
-		$_template_cache = new \Framework\Model\Template_Cache();
-		$_template_cache->remove();
+		$_active_check = App\Setup\ActiveCheck::instance();
+		if ( $_active_check->is_theme_active() ) {
+			$_template_cache = new \Framework\Model\Template_Cache();
+			$_template_cache->remove();
+		}
 	}
 
 	static function _plugins_loaded() {
