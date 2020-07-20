@@ -13,14 +13,16 @@ class Assets {
 	}
 
 	static function _enqueue_assets() {
-		wp_enqueue_style(
-			'kl-toggle-position-app',
-			KL_TOGGLE_POSITION_URL . '/assets/css/app.min.css',
-			[
-				\Framework\Helper::get_main_style_handle(),
-			],
-			filemtime( KL_TOGGLE_POSITION_PATH . '/assets/css/app.min.css' )
-		);
+		if ( apply_filters( 'kl_toggle_position_enqueue_toggle_style', true ) ) {
+			wp_enqueue_style(
+				'kl-toggle-position-app',
+				KL_TOGGLE_POSITION_URL . '/assets/css/app.min.css',
+				[
+					\Framework\Helper::get_main_style_handle(),
+				],
+				filemtime( KL_TOGGLE_POSITION_PATH . '/assets/css/app.min.css' )
+			);
+		}
 
 		$_active_check = ActiveCheck::instance();
 		if ( $_active_check->is_plugins_active() ) {
