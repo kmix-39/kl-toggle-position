@@ -3,7 +3,7 @@
  * Plugin Name: Toggle Position by Kmical Lights
  * Plugin URI: https://github.com/kmix-39
  * Description: Customize Plugin for Snow Monkey
- * Version: 0.1.1
+ * Version: 0.1.2
  * Requires at least: 5.4
  * Requires PHP: 7.3
  * Author: Kmical Lights

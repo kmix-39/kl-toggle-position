@@ -15,7 +15,7 @@ class Theme {
 		$_toggle_menu_position = get_theme_mod( 'toggle-menu-position', 'left' );
 
 		if ( ! $_active_check->is_plugins_active() && $_toggle_button_position === $_toggle_menu_position ) {
-			add_action( 'snow_monkey_prepend_drawer_nav', [ $this, '_sm_prepend_drawer_nav' ] );
+			add_action( 'snow_monkey_prepend_drawer_nav', [ $this, '_sm_prepend_drawer_nav' ], 1, 1 );
 		}
 
 		if ( 'left' === $_toggle_button_position ) {
