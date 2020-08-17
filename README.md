@@ -6,7 +6,7 @@ Snow Monkeyテーマのトグルボタン,トグルメニューの位置をカ�
 
 ## Requirement
 
-* Snow Monkey v10.10.7 以降
+* Snow Monkey v11 以降
 
 ## Installation
 
