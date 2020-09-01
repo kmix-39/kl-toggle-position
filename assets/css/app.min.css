@@ -1,1 +1,1 @@
-.c-drawer__inner .c-hamburger-btn__bar{background-color:#fff}.c-drawer__inner .c-hamburger-btn__label{color:#fff}
+.c-drawer__inner .c-hamburger-btn__bar{var(--_color-white, #fff)}.c-drawer__inner .c-hamburger-btn__label{var(--_color-white, #fff)}

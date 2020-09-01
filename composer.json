@@ -10,6 +10,7 @@
 	],
 	"require": {
 		"php": ">=7.0",
+		"inc2734/wp-github-plugin-updater": "^3.0.1",
 		"inc2734/wp-plugin-view-controller": "^1.0.0",
 		"kmix39/wp-group-admin-notices": "^0.1.4",
 		"kmix39/wp-active-check": "^0.1.1"

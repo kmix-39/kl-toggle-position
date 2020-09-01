@@ -2,11 +2,11 @@
 
 ## Features
 
-Snow Monkeyテーマのトグルボタン,トグルメニューの位置をカスタマイズ拡張する非公式プラグイン
+Snow Monkeyテーマのトグルボタン, トグルメニューの位置をカスタマイズ拡張する非公式プラグインです。
 
 ## Requirement
 
-* Snow Monkey v10.10.7 以降
+* Snow Monkey v11.1.0 以降
 
 ## Installation
 

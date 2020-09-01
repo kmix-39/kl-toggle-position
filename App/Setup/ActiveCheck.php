@@ -20,8 +20,8 @@ class ActiveCheck {
 			$_active_check = new \Kmix39\WP_Active_Check\Bootstrap();
 			$_instance->_is_theme_active = $_active_check->is_theme_active(
 				[
-					'snow-monkey' => [ '11.0.0', '>=' ],
-					'snow-monkey/resources' => [ '11.0.0', '>=' ],
+					'snow-monkey' => [ '11.1.0', '>=' ],
+					'snow-monkey/resources' => [ '11.1.0', '>=' ],
 				]
 			);
 			$_instance->_is_plugins_active = $_active_check->is_plugins_active( [
