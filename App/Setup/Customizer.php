@@ -11,10 +11,10 @@ use Inc2734\WP_Customizer_Framework\Framework;
 class Customizer {
 
 	function __construct() {
-		add_action( 'snow_monkey_post_load_customizer', [ $this, '_load_customizer' ] );
+		add_action( 'snow_monkey_post_load_customizer', [ __CLASS__, '_load_customizer' ] );
 	}
 
-	function _load_customizer() {
+	static function _load_customizer() {
 		Framework::control(
 			'select',
 			'toggle-button-position',
