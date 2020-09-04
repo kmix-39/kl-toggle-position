@@ -23,6 +23,16 @@ WordPress のプラグインディレクトリに本リポジトリのリリー�
 
 + Snow Monkey テーマのカスタマイズされている場合やデザインスキンによっては、正常に動作しない場合があります。
 
+## Hook
+
+### kl_toggle_position_enqueue_toggle_style
+
+本プラグインのトグルボタンスタイルの読み込みを制御
+
+```
+add_filter( 'kl_toggle_position_enqueue_toggle_style', '__return_false' );
+```
+
 ## Author
 
 Kmical Lights
