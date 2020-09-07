@@ -10,7 +10,9 @@ Snow Monkeyテーマのトグルボタン, トグルメニューの位置をカ�
 
 ## Installation
 
-WordPress のプラグインディレクトリに本リポジトリのリリースファイルを配置した上で、本プラグインを有効化してください。
+- https://github.com/kmix-39/kl-toggle-position/releases より kl-toggle-position.zip の最新版をダウンロードします。
+
+- WordPress のプラグインディレクトリに本リポジトリのリリースファイルを配置した上で、本プラグインを有効化してください。
 
 ## Usage
 
