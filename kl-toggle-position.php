@@ -3,7 +3,7 @@
  * Plugin Name: Toggle Position by Kmical Lights
  * Plugin URI: https://github.com/kmix-39
  * Description: Customize the toggle menu for the Snow Monkey theme
- * Version: 1.0.2
+ * Version: 1.1.0
  * Requires at least: 5.5
  * Requires PHP: 7.0
  * Tested up to: 5.5.1

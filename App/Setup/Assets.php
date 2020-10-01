@@ -29,6 +29,17 @@ class Assets {
 			return;
 		}
 
+		$_toggle_button_position = get_theme_mod( 'toggle-button-position', 'left' );
+		if ( 'left' === $_toggle_button_position ) {
+			wp_enqueue_style(
+				'kl-toggle-position-left',
+				KL_TOGGLE_POSITION_URL . '/assets/css/left.min.css',
+				[
+					\Framework\Helper::get_main_style_handle(),
+				],
+				filemtime( KL_TOGGLE_POSITION_PATH . '/assets/css/left.min.css' )
+			);
+		}
 		$_toggle_menu_position = get_theme_mod( 'toggle-menu-position', 'left' );
 		if ( 'right' === $_toggle_menu_position ) {
 			wp_enqueue_style(
